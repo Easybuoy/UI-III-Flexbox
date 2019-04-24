@@ -165,7 +165,11 @@ hr {
 }
 
 .card-group {
+	flex-wrap: wrap;
 	justify-content: center;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+
 }
 
 .card {
