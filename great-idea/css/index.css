@@ -82,6 +82,11 @@ ul li a {
 	color: inherit;
 }
 
+.active {
+	color: black;
+	font-weight: 900;
+}
+
 nav ul li a:hover {
 	color: black;
 }
@@ -127,6 +132,11 @@ nav ul li a:hover {
 	width: 100%;
 }
 
+.products-info-vid {
+	width: 500px;
+	height: 350px;
+}
+
 .middle-img{
 	width: 90%;
 	justify-content: center;
@@ -168,6 +178,15 @@ hr {
 .card-body {
 	padding: 5%;
 	margin: 2%;
+}
+
+.card-img-container {
+	align-items: center;
+	text-align: center;
+}
+
+.card-img {
+	max-width: 100%;
 }
 
 .p-text {
